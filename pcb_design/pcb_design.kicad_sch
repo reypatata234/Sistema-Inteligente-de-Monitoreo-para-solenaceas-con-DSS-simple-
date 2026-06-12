@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ec33d671-2b2c-4206-939b-80405c3d1718")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 27.94 85.09)
+		(size 29.21 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 237 0 1)
+		)
+		(uuid "bc5daa65-0007-4f2d-a8f8-6a7a11ca5c72")
+		(property "Sheetname" "esp32 s3"
+			(at 27.94 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontrolador.kicad_sch"
+			(at 27.94 145.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_design"
+				(path "/ec33d671-2b2c-4206-939b-80405c3d1718"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 33.02)
+		(size 30.48 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 248 22 1)
+		)
+		(uuid "fe800407-7dcf-473f-91e8-df3a65b291ad")
+		(property "Sheetname" "power supply"
+			(at 27.94 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power supply file.kicad_sch"
+			(at 27.94 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_design"
+				(path "/ec33d671-2b2c-4206-939b-80405c3d1718"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
